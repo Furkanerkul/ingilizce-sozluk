@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #AFD3E2;
+}
+
+.container{
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.container *{
+    height: max-content;
+    width: max-content;
+}
+
+input{
+    padding: 10px;
+}
+
+input:focus{
+    outline: none;
+    transition: 0.50s;
+}
+
+button{
+    padding: 10px;
+    background-color: #615EFC;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+button:hover{
+    transition: 0.50s ease-out;
+    cursor: pointer;
+    background-color: #FF8225;
+}
